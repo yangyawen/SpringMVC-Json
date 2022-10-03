@@ -9,6 +9,8 @@ import java.util.List;
 
 /**
  * 用 @RestController 就不需要加 @ResponseBody 了
+ * @RestController 控制器中所有的处理方法都会以 json 的形式返回
+ * 相当于所有的处理方法都加上了 @ResponseBody
  */
 @RestController
 public class JsonController2 {
